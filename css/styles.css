@@ -1,0 +1,178 @@
+body {
+  overflow-x: hidden;
+}
+
+
+
+
+/*=====NAV STYLES====*/
+
+.navbar-default {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-bottom: none;
+}
+
+.navbar-right li {
+  color:white;
+}
+
+
+/*========SLIDESHOW=====*/
+
+.slideshow {
+  height: -100px;
+}
+
+.mainLogo {
+  z-index: 55;
+  height: 375px;
+  width: 375px;
+  margin: auto;
+}
+
+.carousel-inner{
+  width:100%;
+  max-height: 480px !important;
+
+}
+
+/*========OUR STORY=====*/
+
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color: #F15A24;
+  font-size: 45px;
+  text-shadow: 10px;
+}
+
+.about {
+  position: relative;
+  top: 50px;
+  color:black !important;
+}
+
+.story h5{
+  font-size: 16px;
+  position: relative;
+  bottom: 10px;
+  padding-bottom: 25px;
+  text-shadow: 2px 2px 2px 2px;
+}
+
+.story {
+  position: relative;
+  top: 60px;
+}
+
+
+
+
+
+
+/*=========FRESNO BEE SECTION=======*/
+
+
+.vegatables {
+  background-image: url('../img/food_review.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  margin-top: 300px;
+
+
+}
+
+
+.jumbotron {
+  width: 75%;
+  background-color: rgba(0,0,0,0.5);
+  margin:auto;
+  position:relative;
+  top:150px;
+}
+
+
+
+
+
+.jumbotron h1{
+  color:#F15A24;
+  text-align: center;
+  padding-bottom: 50px;
+
+}
+
+
+.jumbotron div {
+  color:white;
+  text-align:center;
+  font-size:22px;
+  position: relative;
+  bottom: 35px;
+
+}
+
+
+
+#menu {
+  background-image: url('../img/black_linen.png');
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+#menu p {
+  font-size: 12px;
+  text-align: left;
+}
+
+
+
+#menu h1 {
+  text-align: center;
+}
+
+
+
+
+.tabs {
+  padding:100px;
+}
+
+
+
+
+
+
+
+
+#contact {
+  background-color: #F15A24;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.form {
+  position:relative;
+  left:75px;
+  top:20px;
+}
+
+
+
+
+
+
+
+#contact h2, #contact p {
+  position: relative;
+  /*left:115px;*/
+  color: white;
+
+}
+
+.contactText {
+  position: relative;
+  top:25px;
+}
